@@ -1,0 +1,592 @@
+<mat-toolbar id="toolbar">
+    <mat-card id="cardx">
+        <p id="griding"> <img [src]="grid" alt="magnifying glass" class="grid">&nbsp;<b>Dream</b>Pulze</p>
+    </mat-card>
+    &nbsp;&nbsp;
+    <span>
+ <!-- <img [src]="toggle" alt="toggle sidebar" id="toggle" (click)="isExpanded = !isExpanded">&nbsp; -->
+</span>
+    <h2 id="webTitle">Virtual Work packages</h2>&nbsp;
+    <span class="example-spacer"></span>
+    <div class="dropdown">
+        <div class="row">
+            <div class="col">
+                <img [src]="search" alt="magnifying glass" class="src">
+            </div>
+            <div class="col">
+                <img [src]="bell" alt="magnifying glass" class="src">
+            </div>
+            <div class="col">
+                <img [src]="avatar1" alt="magnifying glass" class="woman">
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img [src]="avatar" alt="Merchant" id="merchant">
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
+                                    <img [src]="editIcon" alt="edit profile">
+                                </div>
+                                <div class="w-100"></div>
+                                <div class="col">
+                                    <button class="btn brn-dark" id="modalRoutes">
+                              <small>Edit profile</small>
+                            </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
+                                    <img [src]="viewProfile" alt="view Profile">
+                                </div>
+                                <div class="w-100"></div>
+                                <div class="col">
+                                    <button class="btn brn-dark" id="modalRoutes">
+                              <small>View profile</small>
+                            </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
+                                    <img [src]="Logout" alt="Logout">
+                                </div>
+                                <div class="w-100"></div>
+                                <div class="col">
+                                    <button class="btn brn-dark" id="modalRoutes">
+                              <small>Logout</small>
+                            </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal" id="modalRoutes">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</mat-toolbar>
+
+
+<mat-drawer-container class="example-container mat-typography" autosize id="sidenav1">
+    <mat-drawer #drawer mode="side" disableClose="true" opened="true" id="drawerzz">
+        <mat-nav-list id="navList"><br>
+            <mat-list-item id="listItem">
+                <mat-icon mat-list-icon matTooltip="Dashboard" id="iconic">home</mat-icon>
+                <div class="row" id="row1">
+                    <div class="col">
+                        <img [src]="dashboard" alt="magnifying glass" class="grid1">
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col" id="beam">Dashboard</div>
+                </div>
+            </mat-list-item><br><br>
+            <mat-list-item>
+                <mat-icon mat-list-icon id="iconic">person_add</mat-icon>
+                <div class="row" id="row1">
+                    <div class="col">
+                        <img [src]="people" alt="magnifying glass" class="grid1">
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col" id="beam">Apprenticeship</div>
+                </div>
+            </mat-list-item><br><br>
+            <mat-list-item>
+                <mat-icon mat-list-icon id="iconic">how_to_reg</mat-icon>
+                <div class="row" id="row1">
+                    <div class="col">
+                        <img [src]="book" alt="magnifying glass" class="grid1">
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col" id="beam">Trainings</div>
+                </div>
+            </mat-list-item><br><br>
+            <mat-list-item>
+                <mat-icon mat-list-icon id="iconic">backup</mat-icon>
+                <div class="row" id="row1">
+                    <div class="col">
+                        <img [src]="suitcase" alt="magnifying glass" class="grid1">
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col" id="beam">&nbsp;&nbsp;&nbsp;&nbsp;Jobs</div>
+                </div>
+            </mat-list-item><br><br>
+            <mat-list-item>
+                <mat-icon mat-list-icon id="iconic">assignment</mat-icon>
+                <div class="row" id="row1">
+                    <div class="col">
+                        <img [src]="suitcase" alt="magnifying glass" class="grid1">
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col" id="beam">Work Package</div>
+                </div>
+            </mat-list-item><br><br>
+            <mat-list-item>
+                <mat-icon mat-list-icon id="iconic">backup</mat-icon>
+                <div class="row" id="row1">
+                    <div class="col">
+                        <img [src]="connect" alt="magnifying glass" class="grid1">
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col" id="beam">Workstream</div>
+                </div>
+            </mat-list-item>
+            <!-- <mat-list-item></mat-list-item> -->
+
+        </mat-nav-list>
+    </mat-drawer>
+    <div class="card" id="cardxx">
+        <span>
+  <div class="position-absolute top-0 start-0">
+    <div id="contents">
+        <img [src]="back" alt="backDirection" id="arrwzz">&nbsp;
+        <span id="backDirection">
+          <b>Microsoft Exchange Enterprise Messaging Exhange Infrastructure, Hybrid set <br>
+            &nbsp;&nbsp;&nbsp;Up and Cloud Migration Project for Soulinspire International.
+          </b><br>
+          <small id="small">Get subscription Bundle instead</small>
+        </span>
+    </div>
+    </div>
+    <div class="position-absolute top-0 end-0">
+        <img [src]="ubaLogo" alt="ubaLogo" id="ubaLogo">
+    </div>
+    </span><br>
+    <div class="content">
+        <mat-card id="main">
+            <div class="row">
+                <div class="col">
+                    <span id="smallerz"><a id="schulz">Project Provider:</a><b>{{projectProvider}}</b></span>
+                </div>
+                <div class="col">
+                    <span id="smallerz"><a id="schulz">Project Complexity:</a> <b>{{projectComplexityLevel}}</b></span>
+                </div>
+                <div class="col">
+                    <span id="smallerz"><a id="schulz">Project Status:</a> <b>{{projectStatus}}</b></span>
+                </div>
+                <div class="col">
+                    <span id="smallerz"><a id="schulz">Duration: </a><b>{{duration}}</b></span>
+                </div>
+                <div class="col">
+                    <span id="smallerz"><a id="schulz">Project Type:</a> <b>{{projectType}}</b></span>
+                </div>
+                <div class="col"></div>
+            </div>
+        </mat-card><br>
+
+        <mat-tab-group animationDuration="1000ms">
+            <mat-tab label="Project Info">Content 1</mat-tab>
+            <mat-tab label="Project Scope">Content 2</mat-tab>
+            <mat-tab label="Project Delivery Guide">Content 3</mat-tab>
+            <mat-tab label="Project Delivery Validation">
+                <mat-card id="main1">
+                    <div class="row">
+                        <div class="col">
+                            <span id="smallerz"><a id="schulz">Career Area</a></span>
+                        </div>
+                        <div class="col">
+                            <span id="smallerz"><a id="schulz">User Name</a></span>
+                        </div>
+                        <div class="col">
+                            <span id="smallerz"><a id="schulz">Validation Description</a></span>
+                        </div>
+                        <div class="col">
+                            <span id="smallerz"><a id="schulz">&nbsp;&nbsp;Sample File</a></span>
+                        </div>
+                        <div class="col">
+                            <span id="smallerz"><a id="schulz">Status</a></span>
+                        </div>
+                        <div class="col">
+                            <span id="smallerz"><a id="schulz">Evidence File</a></span>
+                        </div>
+                        <div class="col">
+                            <span id="smallerz"><a id="schulz">Evidence Video</a></span>
+                        </div>
+                    </div>
+                </mat-card><br>
+                <mat-accordion id="accordion">
+                    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" id="exponent">
+                        <mat-expansion-panel-header id="main3">
+                            <mat-card id="main2">
+                                <div class="row">
+                                    <div class="col">
+                                        <span id="smallerz"><a id="schulz">Microsoft365 cloud <br> [modern workspace]</a></span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz"><a id="schulz">&nbsp;Thomas_Jone</a></span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz"><a id="schulz">
+                                          &nbsp;&nbsp; &nbsp;Lorem Ipsum...
+                                        </a></span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz" class="samp">
+                                        <img [src]="download" alt="backDirection" id="arrwzz">
+                                        <a class="linkxx">Download</a>
+                                        <br><a id="schulz1" class="linkx">Sample file</a>
+                                        </span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz" class="samp"><a id="schulz">
+                                          <span id="red">Not Started</span>
+                                        </a>
+                                        </span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz" class="samp1"><a id="schulz">&nbsp;
+                                          <span id="smallerz" class="samp">
+                                            <img [src]="download" alt="backDirection" id="arrwzz">
+                                            <a class="linkxx1">Upload File</a>
+                                            </span>
+                                        </a>
+                                        </span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz" class="samp1"><a id="schulz">&nbsp;
+                                        <span id="smallerz" class="samp">
+                                          <img [src]="download" alt="backDirection" id="arrwzz">
+                                          <a class="linkxx1">Upload Video</a>
+                                          </span>
+                                        </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </mat-card>
+                        </mat-expansion-panel-header><br>
+                        <p>Project Task Breakdown</p>
+                        <div class="row">
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Configure tenant policy changes.
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Delete Microsoft terms, meeting settings and Configuration changes.
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Create calling plan routing policies for the tenant.
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Decommission servers that were used for excahnge earlier.
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Configure tenant policy changes.
+                            </div>
+                        </div>
+                    </mat-expansion-panel>
+                    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" id="exponent">
+                        <mat-expansion-panel-header id="main3">
+                            <mat-card id="main2">
+                                <div class="row">
+                                    <div class="col">
+                                        <span id="smallerz"><a id="schulz">Microsoft365 cloud <br> [modern workspace]</a></span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz"><a id="schulz">&nbsp;Thomas_Jone</a></span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz"><a id="schulz">
+                                        &nbsp;&nbsp; &nbsp;Lorem Ipsum...
+                                      </a></span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz" class="samp">
+                                      <img [src]="download" alt="backDirection" id="arrwzz">
+                                      <a class="linkxx">Download</a>
+                                      <br><a id="schulz1" class="linkx">Sample file</a>
+                                      </span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz" class="samp"><a id="schulz">
+                                        <span id="red">Not Started</span>
+                                        </a>
+                                        </span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz" class="samp1"><a id="schulz">&nbsp;
+                                        <span id="smallerz" class="samp">
+                                          <img [src]="download" alt="backDirection" id="arrwzz">
+                                          <a class="linkxx1">Upload File</a>
+                                          </span>
+                                        </a>
+                                        </span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz" class="samp1"><a id="schulz">&nbsp;
+                                      <span id="smallerz" class="samp">
+                                        <img [src]="download" alt="backDirection" id="arrwzz">
+                                        <a class="linkxx1">Upload Video</a>
+                                        </span>
+                                        </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </mat-card>
+                        </mat-expansion-panel-header><br>
+                        <p>Project Task Breakdown</p>
+                        <div class="row">
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Configure tenant policy changes.
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Delete Microsoft terms, meeting settings and Configuration changes.
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Create calling plan routing policies for the tenant.
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Decommission servers that were used for excahnge earlier.
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Configure tenant policy changes.
+                            </div>
+                        </div>
+                    </mat-expansion-panel>
+                    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" id="exponent">
+                        <mat-expansion-panel-header id="main3">
+                            <mat-card id="main2">
+                                <div class="row">
+                                    <div class="col">
+                                        <span id="smallerz"><a id="schulz">Microsoft365 cloud <br> [modern workspace]</a></span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz"><a id="schulz">&nbsp;Thomas_Jone</a></span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz"><a id="schulz">
+                                      &nbsp;&nbsp; &nbsp;Lorem Ipsum...
+                                    </a></span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz" class="samp">
+                                    <img [src]="download" alt="backDirection" id="arrwzz">
+                                    <a class="linkxx">Download</a>
+                                    <br><a id="schulz1" class="linkx">Sample file</a>
+                                    </span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz" class="samp"><a id="schulz">
+                                      <span id="red">Not Started</span>
+                                        </a>
+                                        </span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz" class="samp1"><a id="schulz">&nbsp;
+                                      <span id="smallerz" class="samp">
+                                        <img [src]="download" alt="backDirection" id="arrwzz">
+                                        <a class="linkxx1">Upload File</a>
+                                        </span>
+                                        </a>
+                                        </span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz" class="samp1"><a id="schulz">&nbsp;
+                                    <span id="smallerz" class="samp">
+                                      <img [src]="download" alt="backDirection" id="arrwzz">
+                                      <a class="linkxx1">Upload Video</a>
+                                      </span>
+                                        </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </mat-card>
+                        </mat-expansion-panel-header><br>
+                        <p>Project Task Breakdown</p>
+                        <div class="row">
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Configure tenant policy changes.
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Delete Microsoft terms, meeting settings and Configuration changes.
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Create calling plan routing policies for the tenant.
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Decommission servers that were used for excahnge earlier.
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Configure tenant policy changes.
+                            </div>
+                        </div>
+                    </mat-expansion-panel>
+                    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" id="exponent">
+                        <mat-expansion-panel-header id="main3">
+                            <mat-card id="main2">
+                                <div class="row">
+                                    <div class="col">
+                                        <span id="smallerz"><a id="schulz">Microsoft365 cloud <br> [modern workspace]</a></span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz"><a id="schulz">&nbsp;Thomas_Jone</a></span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz"><a id="schulz">
+                                    &nbsp;&nbsp; &nbsp;Lorem Ipsum...
+                                  </a></span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz" class="samp">
+                                  <img [src]="download" alt="backDirection" id="arrwzz">
+                                  <a class="linkxx">Download</a>
+                                  <br><a id="schulz1" class="linkx">Sample file</a>
+                                  </span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz" class="samp"><a id="schulz">
+                                    <span id="red">Not Started</span>
+                                        </a>
+                                        </span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz" class="samp1"><a id="schulz">&nbsp;
+                                    <span id="smallerz" class="samp">
+                                      <img [src]="download" alt="backDirection" id="arrwzz">
+                                      <a class="linkxx1">Upload File</a>
+                                      </span>
+                                        </a>
+                                        </span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz" class="samp1"><a id="schulz">&nbsp;
+                                  <span id="smallerz" class="samp">
+                                    <img [src]="download" alt="backDirection" id="arrwzz">
+                                    <a class="linkxx1">Upload Video</a>
+                                    </span>
+                                        </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </mat-card>
+                        </mat-expansion-panel-header><br>
+                        <p>Project Task Breakdown</p>
+                        <div class="row">
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Configure tenant policy changes.
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Delete Microsoft terms, meeting settings and Configuration changes.
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Create calling plan routing policies for the tenant.
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Decommission servers that were used for excahnge earlier.
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Configure tenant policy changes.
+                            </div>
+                        </div>
+                    </mat-expansion-panel>
+                    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" id="exponent">
+                        <mat-expansion-panel-header id="main3">
+                            <mat-card id="main2">
+                                <div class="row">
+                                    <div class="col">
+                                        <span id="smallerz"><a id="schulz">Microsoft365 cloud <br> [modern workspace]</a></span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz"><a id="schulz">&nbsp;Thomas_Jone</a></span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz"><a id="schulz">
+                                  &nbsp;&nbsp; &nbsp;Lorem Ipsum...
+                                </a></span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz" class="samp">
+                                <img [src]="download" alt="backDirection" id="arrwzz">
+                                <a class="linkxx">Download</a>
+                                <br><a id="schulz1" class="linkx">Sample file</a>
+                                </span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz" class="samp"><a id="schulz">
+                                  <span id="red">Not Started</span>
+                                        </a>
+                                        </span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz" class="samp1"><a id="schulz">&nbsp;
+                                  <span id="smallerz" class="samp">
+                                    <img [src]="download" alt="backDirection" id="arrwzz">
+                                    <a class="linkxx1">Upload File</a>
+                                    </span>
+                                        </a>
+                                        </span>
+                                    </div>
+                                    <div class="col">
+                                        <span id="smallerz" class="samp1"><a id="schulz">&nbsp;
+                                <span id="smallerz" class="samp">
+                                  <img [src]="download" alt="backDirection" id="arrwzz">
+                                  <a class="linkxx1">Upload Video</a>
+                                  </span>
+                                        </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </mat-card>
+                        </mat-expansion-panel-header><br>
+                        <p>Project Task Breakdown</p>
+                        <div class="row">
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Configure tenant policy changes.
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Delete Microsoft terms, meeting settings and Configuration changes.
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Create calling plan routing policies for the tenant.
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Decommission servers that were used for excahnge earlier.
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col" id="smallerz">
+                                <input type="checkbox"> Configure tenant policy changes.
+                            </div>
+                        </div>
+                    </mat-expansion-panel>
+                </mat-accordion>
+            </mat-tab>
+        </mat-tab-group><br>
+        <div class="position-absolute bottom-0 start-0">
+            <mat-paginator [length]="100" [pageSize]="10" [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Select page">
+            </mat-paginator>
+        </div>
+
+    </div>
+    <!-- footer -->
+
+    </div>
+</mat-drawer-container>

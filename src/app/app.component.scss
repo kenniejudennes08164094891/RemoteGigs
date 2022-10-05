@@ -1,0 +1,436 @@
+//Navbar
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+#toggle {
+    height: 30px;
+    width: 30px;
+}
+
+#toggle1 {
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+
+#toggleColor {
+    width: 63px;
+    height: 50px;
+}
+
+#toggleColor:hover {
+    width: 63px;
+    height: 50px;
+    border-color: grey;
+}
+
+#toolbar {
+    background-color: white;
+    color: white;
+    cursor: pointer;
+    border-bottom: #343a40;
+}
+
+#inlineFormInputName2 {
+    width: 500px;
+}
+
+#search {
+    color: white;
+    border-color: white;
+}
+
+#form-inline {
+    border-radius: 1px;
+}
+
+.form-control {
+    width: 700px;
+    font-size: small;
+}
+
+#cardx {
+    background-color: #F5F5F7;
+    margin-left: -23px;
+}
+
+.grid1 {
+    width: 20px;
+    height: 20px;
+    margin-left: 5mm;
+    align-content: center;
+}
+
+#griding {
+    color: black;
+    margin-top: 10px;
+    padding: 15px;
+    // border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    height: auto;
+    font-size: medium;
+}
+
+#iconic {
+    visibility: hidden;
+}
+
+.grid {
+    width: 30px;
+    height: 30px;
+    color: black;
+    background-color: solid #e1e1e1;
+    ;
+}
+
+.src {
+    background-color: #F5F5F7;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    height: auto;
+}
+
+#iconn {
+    color: blue;
+}
+
+.linkx {
+    color: rgb(31, 161, 248);
+    text-decoration: none;
+    filter: brightness(40%);
+}
+
+.linkxx {
+    color: rgb(31, 161, 248);
+    text-decoration: underline;
+    filter: brightness(40%);
+}
+
+.linkx1 {
+    color: rgb(31, 161, 248);
+    text-decoration: none;
+    font-size: small;
+    filter: brightness(40%);
+}
+
+.linkxx1 {
+    color: rgb(31, 161, 248);
+    text-decoration: underline;
+    font-size: small;
+    filter: brightness(40%);
+}
+
+#schulz1 {
+    margin-left: 35px;
+    font-weight: lighter;
+}
+
+#schulz2 {
+    margin-left: 45px;
+}
+
+.woman {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 5px;
+    color: #343a40;
+}
+
+#exampleModal {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#red {
+    font-family: 'inter';
+    background-color: #FFF0EF;
+    color: #f10428;
+    width: auto;
+    min-width: 25px;
+    padding: 7.5px;
+}
+
+#modalRoutes {
+    color: #343a40;
+    background-color: #f9f9f9;
+    border-color: #343a40;
+}
+
+#modalRoutes:hover {
+    color: white;
+    background-color: #343a40;
+}
+
+#merchantName {
+    font-size: larger;
+}
+
+#exampleModalLabel {
+    font-weight: normal;
+}
+
+#merchant {
+    width: 40px;
+    margin-left: 200px;
+}
+
+//sideav
+#sidenav1 {
+    height: calc(205vh - 114.9vh);
+    background-color: #F5F5F7;
+}
+
+#drawerzz {
+    background-color: #F5F5F7;
+}
+
+#cardxx {
+    margin-top: 5px;
+    border-style: none;
+}
+
+#navList {
+    background-color: #F5F5F7;
+    width: 176px;
+}
+
+#sidenav2 {
+    width: 200px;
+    background-color: #343a40;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 238%;
+    background-color: rgb(236, 236, 240)!important;
+    color: grey;
+    font-size: small;
+    cursor: pointer;
+    border-color: black;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+#uba {
+    color: #ec081e;
+}
+
+.example-button {
+    margin-top: 16px;
+}
+
+.example-tooltip-red {
+    background: #b71c1c;
+}
+
+////////////
+#merchantSidebar {
+    width: 100px;
+    height: 100px;
+}
+
+#navbarInfo {
+    margin-top: 70px;
+    color: white;
+}
+
+#sidebarIcon {
+    width: 20px;
+    height: 20px;
+}
+
+#ubaLogo {
+    margin: 10px;
+    margin-top: 17px;
+    height: 60px;
+    width: 60px;
+}
+
+.content-wrapper {
+    margin-top: 90px;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+#webTitle {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: lighter;
+    color: black;
+}
+
+#contents {
+    margin-top: 75px;
+    margin-left: 10px;
+}
+
+#arrwzz {
+    width: 22px;
+    height: 20px;
+}
+
+#backDirection {
+    font-family: 'Lucida Sans';
+    font-size: medium;
+    color: black;
+    cursor: pointer
+}
+
+#main {
+    margin-top: 90px;
+    margin-left: 10px;
+    background-color: #F5F5F7;
+    width: 1100px;
+}
+
+#accordion {
+    color: white;
+}
+
+#accordion:hover {
+    color: white;
+}
+
+#main3:hover {
+    color: white;
+}
+
+#main1 {
+    margin-left: 10px;
+    background-color: #edeeed;
+    width: 1100px;
+}
+
+#exponent {
+    background-color: white;
+    width: 1100px;
+    padding: 2px;
+}
+
+#main2 {
+    background-color: white;
+    width: 1200px;
+    margin-left: -13px;
+    border-style: none;
+}
+
+.samp {
+    margin-left: 15px;
+}
+
+.samp1 {}
+
+#main2:hover {
+    width: 1110px;
+}
+
+.mat-tab-group {
+    margin-bottom: 48px;
+}
+
+#content1 {
+    margin-top: 30px;
+}
+
+#Onboarding {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+#contents {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+#regedit {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+#matList {
+    margin-top: -90px;
+}
+
+// mat-list-item,
+#sideInfo {
+    font-size: x-small;
+    background-color: #f9f9f9;
+    color: #343a40;
+    border-radius: 5px;
+}
+
+#beam {
+    font-size: small;
+}
+
+#merchantSidebar {
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+#sidenav2 {
+    cursor: pointer;
+    width: 200px;
+    background-color: #343a40;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#smallerz {
+    font-size: smaller;
+}
+
+#schulz {
+    color: #646973;
+}
+
+#small {
+    margin-left: 30px;
+    color: gray;
+    font-weight: bold;
+}
+
+#globalSerach {
+    width: 700px;
+    font-size: x-small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.form-inline {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mat-form-field+.mat-form-field {
+    margin-left: 8px;
+}
